@@ -18,6 +18,7 @@ namespace GradeBook.GradeBooks
         public BaseGradeBook(string name)
         {
             Name = name;
+            IsWeighted = IsWeighted;
             Students = new List<Student>();
         }
 
