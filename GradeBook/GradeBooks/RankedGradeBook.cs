@@ -1,6 +1,7 @@
-﻿using GradeBook.Enums;
+﻿
 using System;
 using System.Collections.Generic;
+using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
@@ -46,7 +47,9 @@ namespace GradeBook.GradeBooks
             }
 
 
+
             return 'F';
+            
         }
 
         public override void CalculateStatistics()
